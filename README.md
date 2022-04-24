@@ -6,7 +6,10 @@ My name is Mehran Matin and this is my portfolio. You can find samples of my wor
 ## Website
 https://mehranmatin.github.io/Portfolio/
 
-## Author
-by Mehran M.
+## Preview Screenshot
+![portfolio demo screenshot](assets/images/preview.png)
+
+## Authored By
+Mehran M.
 
 ### ©️2022 Mehran M.

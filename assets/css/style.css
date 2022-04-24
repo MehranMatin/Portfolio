@@ -147,6 +147,10 @@ footer div {
     min-height: 300px;
 }
 
+.recent-work .demo-first{
+    margin-top: 25px;
+}
+
 .recent-work .demo-first a {
     display: flex;
     justify-content: space-around;
