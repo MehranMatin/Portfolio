@@ -168,18 +168,17 @@ footer div {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 
-    }
-  }
+}
   
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
-    header h1 {
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .recent-work .demo-first a {
+        flex-direction: column;
+    }
+}
 
-    }
-  }
-  
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
     header {
         justify-content: flex-end;
     }
@@ -191,4 +190,4 @@ footer div {
     .recent-work article {
         width: 100%;
     }
-  }
+}
