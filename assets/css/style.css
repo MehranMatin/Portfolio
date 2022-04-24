@@ -25,16 +25,9 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    /* VENDOR PREFIX 
-    Always add standardized version of a property at the end of a sequence of vendor-prefixed versions. The browser will always apply the last version that it can interpret.) */
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /* background-image: url("../images/hero-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%; */
     box-shadow: var(--shadow-style-1);
     z-index: 9999;
 }
@@ -135,12 +128,15 @@ footer div {
     align-items: center;
 }
 
-.projects article {
+.projects img {
+    max-width: 100px;
+}
+
+.demo {
+    border-radius: 10px;
     margin: 15px;
     padding: 10px;
     border: var(--primary-color) solid 1px;
-}
-
-.projects img {
-    max-width: 100px;
+    min-width: 300px;
+    min-height: 200px;
 }
