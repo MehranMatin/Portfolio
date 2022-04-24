@@ -129,7 +129,7 @@ footer div {
 }
 
 .projects img {
-    max-width: 100px;
+    width: 200px;
 }
 
 .demo {
@@ -138,5 +138,23 @@ footer div {
     padding: 10px;
     border: var(--primary-color) solid 1px;
     min-width: 300px;
-    min-height: 200px;
+    min-height: 300px;
+}
+
+.recent-work .demo-first a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.recent-work .demo-first p.description {
+    line-height: 2em;
+    text-align: left;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.recent-work .first-image {
+    width: 350px;
 }
